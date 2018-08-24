@@ -1,0 +1,20 @@
+#section-content{
+    padding: 80px 0;
+}
+
+#aboutBand{
+    //background-image: url('../img/bandCover2.jpg');
+    @include backgroundImage('../img/bandCover2.jpg');
+    background-size:cover;
+}
+
+#whatWeDo{
+    //background-image: url('../img/guitar.jpg');
+    @include backgroundImage('../img/guitar.jpg');
+    padding: 10px;
+}
+
+.footer {
+    background: #061D25;
+    padding: 10px 0;
+  }

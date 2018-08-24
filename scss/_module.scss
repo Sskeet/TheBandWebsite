@@ -1,0 +1,32 @@
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color:white;
+    padding: 1.875rem;
+}
+.card-deck .card{
+    border: 2px solid palevioletred;
+    @include cardShadow(0 5px 10px #000);
+
+    //    box-shadow: 5px 5px 40px #000
+}
+
+.card-img-top {
+    height: 250px;
+  }
+
+.section-content {
+    background: center;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 12px;
+    // border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+
+.footer #copyright{
+    color: grey;
+    padding: 20px;
+  }

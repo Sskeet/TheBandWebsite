@@ -1,0 +1,13 @@
+html,
+body {
+    height: 100%;
+}
+
+@mixin backgroundImage($url){
+    background-image:url($url);
+}
+
+@mixin cardShadow($par1){
+    box-shadow: $par1;
+    //box-shadow:0 5px 10px #000;
+}
